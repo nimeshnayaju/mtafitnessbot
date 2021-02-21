@@ -20,7 +20,7 @@ FRIDAY="<SLOT TIME>"
 SATURDAY="<SLOT TIME>"
 ```
 
-You can also pair this script with [hickory] (https://github.com/maxhumber/hickory), a command line tool to schedule Python scripts. After you've installed `hickory`, you can run the following command to schedule the email everyday.
+You can also pair this script with [hickory](https://github.com/maxhumber/hickory), a command line tool to schedule Python scripts. After you've installed `hickory`, you can run the following command to schedule the email everyday.
 
 ````sh
 hickory schedule main.py --every=day@10am

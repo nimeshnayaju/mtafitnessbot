@@ -1,5 +1,5 @@
 ### About
-I made this simple python script because I didn't want to manually send an email to Mount A Fitness Center everyday to book a gym slot. I use this script with `hickory` to automatically send an email to Fitness Center everyday to book a slot for the following day.
+I use this script with `hickory` to automatically send an email to Mount A Fitness Center everyday to book a slot for the following day.
 
 ### How to run
 
@@ -20,7 +20,7 @@ FRIDAY="<SLOT TIME>"
 SATURDAY="<SLOT TIME>"
 ```
 
-You can also pair this script with `hickory <https://github.com/maxhumber/hickory>`_, a command line tool to schedule Python scripts. After you've installed `hickory`, you can run the following command to schedule the email everyday.
+You can also pair this script with [hickory] (https://github.com/maxhumber/hickory), a command line tool to schedule Python scripts. After you've installed `hickory`, you can run the following command to schedule the email everyday.
 
 ````sh
 hickory schedule main.py --every=day@10am
